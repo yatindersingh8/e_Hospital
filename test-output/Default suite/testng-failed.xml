@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qa.testcases.NewRegistrationTest">
+        <methods>
+          <include name="Registration_Form_Redirection_Test"/>
+          <include name="Setup"/>
+          <include name="Patient_Initials_Test"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.NewRegistrationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

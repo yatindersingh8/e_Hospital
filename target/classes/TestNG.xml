@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="e-Hospital Automation Testing Suite ">
+  <listeners>
+    <listener class-name= "com.qa.extentreportlistener.ExtentReporterNG" />
+  </listeners>
+  
+  <test name="Test">
+    <classes>
+      <class name="com.qa.testcases.LoginTest"/>
+      <class name="com.qa.testcases.PasswordTest"/>
+      <class name="com.qa.testcases.HomeTest"/>
+      <class name="com.qa.testcases.NewRegistrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

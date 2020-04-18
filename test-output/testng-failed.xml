@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [e-Hospital Automation Testing Suite ]">
+  <listeners>
+    <listener class-name="com.qa.extentreportlistener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qa.testcases.LoginTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginTest -->
+      <class name="com.qa.testcases.PasswordTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.PasswordTest -->
+      <class name="com.qa.testcases.NewRegistrationTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.NewRegistrationTest -->
+      <class name="com.qa.testcases.HomeTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="verify_patient_registration_link_Test"/>
+          <include name="Teardown"/>
+          <include name="verify_new_registration_link_Test"/>
+        </methods>
+      </class> <!-- com.qa.testcases.HomeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [e-Hospital Automation Testing Suite ] -->
