@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qa.testcases.LoginTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginTest -->
+      <class name="com.qa.testcases.NewRegistrationTest">
+        <methods>
+          <include name="Registration_Form_Redirection_Test"/>
+          <include name="Verify_Skip_Button_Availability_Test"/>
+          <include name="Setup"/>
+          <include name="Verify_Skip_Button_Functioning_Test"/>
+          <include name="Verify_Enter_Mobile_Popup_test"/>
+          <include name="Verify_Search_Button_Ispresent_Test"/>
+          <include name="Enter_Mobile_No_Textfield_Test"/>
+          <include name="Verify_Search_Button_Functioning_Test"/>
+        </methods>
+      </class> <!-- com.qa.testcases.NewRegistrationTest -->
+      <class name="com.qa.testcases.PasswordTest">
+        <methods>
+          <include name="Enter_Password_Test"/>
+          <include name="Teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.PasswordTest -->
+      <class name="com.qa.testcases.HomeTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="verify_patient_registration_link_Test"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.HomeTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

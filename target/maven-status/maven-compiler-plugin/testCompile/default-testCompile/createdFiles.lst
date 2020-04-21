@@ -1,0 +1,4 @@
+com\qa\testcases\LoginTest.class
+com\qa\testcases\HomeTest.class
+com\qa\testcases\PasswordTest.class
+com\qa\testcases\NewRegistrationTest.class

@@ -6,24 +6,19 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.qa.testcases.LoginTest">
+      <class name="com.qa.testcases.NewRegistrationTest">
         <methods>
+          <include name="Registration_Form_Redirection_Test"/>
           <include name="Setup"/>
           <include name="Teardown"/>
         </methods>
-      </class> <!-- com.qa.testcases.LoginTest -->
+      </class> <!-- com.qa.testcases.NewRegistrationTest -->
       <class name="com.qa.testcases.PasswordTest">
         <methods>
           <include name="Teardown"/>
           <include name="Setup"/>
         </methods>
       </class> <!-- com.qa.testcases.PasswordTest -->
-      <class name="com.qa.testcases.NewRegistrationTest">
-        <methods>
-          <include name="Setup"/>
-          <include name="Teardown"/>
-        </methods>
-      </class> <!-- com.qa.testcases.NewRegistrationTest -->
       <class name="com.qa.testcases.HomeTest">
         <methods>
           <include name="Setup"/>
@@ -32,6 +27,12 @@
           <include name="verify_new_registration_link_Test"/>
         </methods>
       </class> <!-- com.qa.testcases.HomeTest -->
+      <class name="com.qa.testcases.LoginTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [e-Hospital Automation Testing Suite ] -->

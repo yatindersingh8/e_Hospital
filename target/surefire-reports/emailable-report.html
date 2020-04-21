@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">9</td><td class="numi">9</td><td class="numi_attn">7</td><td class="numi_attn">2</td><td class="numi">351.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.qa.testcases.NewRegistrationTest</td><td><a href="#m1"><b>Setup</b>  </a></td><td class="numi">1</td><td>1587446355581</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Command line test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.qa.testcases.HomeTest</td><td><a href="#m2"><b>verify_patient_registration_link_Test</b>  </a></td><td class="numi">1</td><td>1587446439531</td><td class="numi">20518</td></tr>
+<tr class="failedeven"><td rowspan="1">com.qa.testcases.PasswordTest</td><td><a href="#m3"><b>Enter_Password_Test</b>  </a></td><td class="numi">1</td><td>1587446577497</td><td class="numi">21338</td></tr>
+<tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.qa.testcases.NewRegistrationTest</td><td><a href="#m4"><b>Setup</b>  </a></td><td class="numi">6</td><td>1587446487881</td><td class="numi">166286</td></tr><tr class="skippedodd"><td><a href="#m5"><b>Teardown</b>  </a></td><td class="numi">7</td><td>1587446395056</td><td class="numi">259114</td></tr>
+<tr><th colspan="4">Command line test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="7">com.qa.testcases.NewRegistrationTest</td><td><a href="#m6"><b>Verify_Enter_Mobile_Popup_test</b>  </a></td><td class="numi">1</td><td>1587446395055</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m7"><b>Enter_Mobile_No_Textfield_Test</b>  </a></td><td class="numi">1</td><td>1587446487882</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m8"><b>Verify_Search_Button_Ispresent_Test</b>  </a></td><td class="numi">1</td><td>1587446560867</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m9"><b>Verify_Search_Button_Functioning_Test</b>  </a></td><td class="numi">1</td><td>1587446604955</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m10"><b>Verify_Skip_Button_Availability_Test</b>  </a></td><td class="numi">1</td><td>1587446628715</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m11"><b>Verify_Skip_Button_Functioning_Test</b>  </a></td><td class="numi">1</td><td>1587446654166</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m12"><b>Registration_Form_Redirection_Test</b>  </a></td><td class="numi">1</td><td>1587446654168</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.qa.testcases.HomeTest</td><td><a href="#m13"><b>verify_home_page_URL_Test</b>  </a></td><td class="numi">1</td><td>1587446326297</td><td class="numi">274</td></tr>
+<tr class="passedeven"><td rowspan="1">com.qa.testcases.LoginTest</td><td><a href="#m14"><b>LoginPageTitelTest</b>  </a></td><td class="numi">1</td><td>1587446350321</td><td class="numi">28</td></tr>
+<tr class="passedodd"><td rowspan="1">com.qa.testcases.PasswordTest</td><td><a href="#m15"><b>verify_password_page_Title</b>  </a></td><td class="numi">1</td><td>1587446413804</td><td class="numi">14</td></tr>
+<tr class="passedeven"><td rowspan="1">com.qa.testcases.LoginTest</td><td><a href="#m16"><b>eHospitalLogoTest</b>  </a></td><td class="numi">1</td><td>1587446481526</td><td class="numi">346</td></tr>
+<tr class="passedodd"><td rowspan="1">com.qa.testcases.PasswordTest</td><td><a href="#m17"><b>Verify_Username_is_Displayed_Test</b>  </a></td><td class="numi">1</td><td>1587446506789</td><td class="numi">125</td></tr>
+<tr class="passedeven"><td rowspan="1">com.qa.testcases.HomeTest</td><td><a href="#m18"><b>verify_new_registration_link_Test</b>  </a></td><td class="numi">1</td><td>1587446531176</td><td class="numi">735</td></tr>
+<tr class="passedodd"><td rowspan="1">com.qa.testcases.LoginTest</td><td><a href="#m19"><b>UsernameTest</b>  </a></td><td class="numi">1</td><td>1587446552334</td><td class="numi">1995</td></tr>
+<tr class="passedeven"><td rowspan="2">com.qa.testcases.PasswordTest</td><td><a href="#m20"><b>ClickingForgot_Password_Test</b>  </a></td><td class="numi">1</td><td>1587446622241</td><td class="numi">547</td></tr><tr class="passedeven"><td><a href="#m21"><b>Use_Another_user_Test</b>  </a></td><td class="numi">1</td><td>1587446647244</td><td class="numi">741</td></tr>
+</table>
+<h1>Command line test</h1>
+<h2 id="m1">com.qa.testcases.NewRegistrationTest:Setup</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8488, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7c1b0470-8138-4d29-a93c-de883874fef5
+*** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+<br/>at com.sun.proxy.$Proxy5.findElement(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+<br/>at com.qa.util.TestUtil.MainFrame(TestUtil.java:36)
+<br/>at com.qa.testcases.NewRegistrationTest.Setup(NewRegistrationTest.java:51)
+<br/>37 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.qa.testcases.HomeTest:verify_patient_registration_link_Test</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10640, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 29cb9375-bc0f-4935-9ce7-52724143e015
+*** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+<br/>at com.sun.proxy.$Proxy5.findElement(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+<br/>at com.qa.util.TestUtil.MainFrame(TestUtil.java:36)
+<br/>at com.qa.testcases.HomeTest.verify_patient_registration_link_Test(HomeTest.java:49)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.qa.testcases.PasswordTest:Enter_Password_Test</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9080, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f0382b5-bf75-4005-ad41-33a747fc56e5
+*** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+<br/>at com.sun.proxy.$Proxy5.findElement(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+<br/>at com.qa.util.TestUtil.MainFrame(TestUtil.java:36)
+<br/>at com.qa.testcases.PasswordTest.Enter_Password_Test(PasswordTest.java:55)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.qa.testcases.NewRegistrationTest:Teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.qa.testcases.NewRegistrationTest:Teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.qa.testcases.NewRegistrationTest:Teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.qa.testcases.NewRegistrationTest:Setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.qa.testcases.NewRegistrationTest:Setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.qa.testcases.NewRegistrationTest:Teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.qa.testcases.NewRegistrationTest:Teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.qa.testcases.NewRegistrationTest:Setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.qa.testcases.NewRegistrationTest:Setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.qa.testcases.NewRegistrationTest:Teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.qa.testcases.NewRegistrationTest:Teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.qa.testcases.NewRegistrationTest:Setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.qa.testcases.NewRegistrationTest:Setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.qa.testcases.NewRegistrationTest:Verify_Search_Button_Ispresent_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.qa.testcases.NewRegistrationTest:Registration_Form_Redirection_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.qa.testcases.NewRegistrationTest:Verify_Skip_Button_Availability_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.qa.testcases.NewRegistrationTest:Verify_Search_Button_Functioning_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.qa.testcases.NewRegistrationTest:Verify_Enter_Mobile_Popup_test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.qa.testcases.NewRegistrationTest:Enter_Mobile_No_Textfield_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.qa.testcases.NewRegistrationTest:Verify_Skip_Button_Functioning_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.qa.testcases.HomeTest:verify_new_registration_link_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.qa.testcases.LoginTest:eHospitalLogoTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.qa.testcases.LoginTest:UsernameTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.qa.testcases.HomeTest:verify_home_page_URL_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.qa.testcases.PasswordTest:Use_Another_user_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.qa.testcases.LoginTest:LoginPageTitelTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.qa.testcases.PasswordTest:ClickingForgot_Password_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.qa.testcases.PasswordTest:verify_password_page_Title</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.qa.testcases.PasswordTest:Verify_Username_is_Displayed_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

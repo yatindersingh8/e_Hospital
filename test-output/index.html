@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods, 2 failed,   16 passed</span>
+                    <span class="method-stats">18 methods, 2 failed,  1 skipped,  15 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -110,6 +110,20 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-e-Hospital_Automation_Testing_Suite_ -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-e-Hospital_Automation_Testing_Suite_" class="hide-methods skipped suite-e-Hospital_Automation_Testing_Suite_"> (hide)</a> <!-- hide-methods skipped suite-e-Hospital_Automation_Testing_Suite_ -->
+                      <a href="#" panel-name="suite-e-Hospital_Automation_Testing_Suite_" class="show-methods skipped suite-e-Hospital_Automation_Testing_Suite_"> (show)</a> <!-- show-methods skipped suite-e-Hospital_Automation_Testing_Suite_ -->
+                    </span>
+                    <div class="method-list-content skipped suite-e-Hospital_Automation_Testing_Suite_">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-e-Hospital_Automation_Testing_Suite_" title="com.qa.testcases.NewRegistrationTest" hash-for-method="Registration_Form_Redirection_Test">Registration_Form_Redirection_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-e-Hospital_Automation_Testing_Suite_ -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -136,11 +150,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-e-Hospital_Automation_Testing_Suite_" title="com.qa.testcases.LoginTest" hash-for-method="LoginPageTitelTest">LoginPageTitelTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-e-Hospital_Automation_Testing_Suite_" title="com.qa.testcases.NewRegistrationTest" hash-for-method="Registration_Form_Redirection_Test">Registration_Form_Redirection_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -224,10 +233,10 @@
                   <div class="stack-trace"><b>"org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_171&apos;
+System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10072, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9173bb8b-d86a-4881-993a-5cb1aeaf0ca2
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10696, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ca1a1543-2ea4-4503-bcbb-b34dc2062b88
 *** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -247,10 +256,10 @@ Session ID: 9173bb8b-d86a-4881-993a-5cb1aeaf0ca2
 ... Removed 31 stack frames<br/> org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_171&apos;
+System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10072, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9173bb8b-d86a-4881-993a-5cb1aeaf0ca2
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10696, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ca1a1543-2ea4-4503-bcbb-b34dc2062b88
 *** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -310,10 +319,10 @@ Session ID: 9173bb8b-d86a-4881-993a-5cb1aeaf0ca2
                   <div class="stack-trace"><b>"org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_171&apos;
+System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10008, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 774ff3e6-2574-4324-b961-ec37757fe6b4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 600, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f88e557b-e040-4f1c-943e-45d4a79c4ec8
 *** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -333,10 +342,10 @@ Session ID: 774ff3e6-2574-4324-b961-ec37757fe6b4
 ... Removed 31 stack frames<br/> org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_171&apos;
+System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10008, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 774ff3e6-2574-4324-b961-ec37757fe6b4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 600, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f88e557b-e040-4f1c-943e-45d4a79c4ec8
 *** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -390,31 +399,67 @@ Session ID: 774ff3e6-2574-4324-b961-ec37757fe6b4
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-e-Hospital_Automation_Testing_Suite_-class-failed -->
-          <div class="suite-e-Hospital_Automation_Testing_Suite_-class-passed">
+          <div class="suite-e-Hospital_Automation_Testing_Suite_-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.testcases.LoginTest</span>
+              <img src="skipped.png"/>
+              <span class="class-name">com.qa.testcases.NewRegistrationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginPageTitelTest">
-                  </a> <!-- LoginPageTitelTest -->
-                  <span class="method-name">LoginPageTitelTest</span>
+                  <a name="Registration_Form_Redirection_Test">
+                  </a> <!-- Registration_Form_Redirection_Test -->
+                  <span class="method-name">Registration_Form_Redirection_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-e-Hospital_Automation_Testing_Suite_-class-skipped -->
+          <div class="suite-e-Hospital_Automation_Testing_Suite_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testcases.NewRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Enter_Mobile_No_Textfield_Test">
+                  </a> <!-- Enter_Mobile_No_Textfield_Test -->
+                  <span class="method-name">Enter_Mobile_No_Textfield_Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="UsernameTest">
-                  </a> <!-- UsernameTest -->
-                  <span class="method-name">UsernameTest</span>
+                  <a name="Verify_Enter_Mobile_Popup_test">
+                  </a> <!-- Verify_Enter_Mobile_Popup_test -->
+                  <span class="method-name">Verify_Enter_Mobile_Popup_test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="eHospitalLogoTest">
-                  </a> <!-- eHospitalLogoTest -->
-                  <span class="method-name">eHospitalLogoTest</span>
+                  <a name="Verify_Search_Button_Functioning_Test">
+                  </a> <!-- Verify_Search_Button_Functioning_Test -->
+                  <span class="method-name">Verify_Search_Button_Functioning_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Search_Button_Ispresent_Test">
+                  </a> <!-- Verify_Search_Button_Ispresent_Test -->
+                  <span class="method-name">Verify_Search_Button_Ispresent_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Skip_Button_Availability_Test">
+                  </a> <!-- Verify_Skip_Button_Availability_Test -->
+                  <span class="method-name">Verify_Skip_Button_Availability_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Skip_Button_Functioning_Test">
+                  </a> <!-- Verify_Skip_Button_Functioning_Test -->
+                  <span class="method-name">Verify_Skip_Button_Functioning_Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -465,63 +510,6 @@ Session ID: 774ff3e6-2574-4324-b961-ec37757fe6b4
           <div class="suite-e-Hospital_Automation_Testing_Suite_-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa.testcases.NewRegistrationTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Enter_Mobile_No_Textfield_Test">
-                  </a> <!-- Enter_Mobile_No_Textfield_Test -->
-                  <span class="method-name">Enter_Mobile_No_Textfield_Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Registration_Form_Redirection_Test">
-                  </a> <!-- Registration_Form_Redirection_Test -->
-                  <span class="method-name">Registration_Form_Redirection_Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_Enter_Mobile_Popup_test">
-                  </a> <!-- Verify_Enter_Mobile_Popup_test -->
-                  <span class="method-name">Verify_Enter_Mobile_Popup_test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_Search_Button_Functioning_Test">
-                  </a> <!-- Verify_Search_Button_Functioning_Test -->
-                  <span class="method-name">Verify_Search_Button_Functioning_Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_Search_Button_Ispresent_Test">
-                  </a> <!-- Verify_Search_Button_Ispresent_Test -->
-                  <span class="method-name">Verify_Search_Button_Ispresent_Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_Skip_Button_Availability_Test">
-                  </a> <!-- Verify_Skip_Button_Availability_Test -->
-                  <span class="method-name">Verify_Skip_Button_Availability_Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_Skip_Button_Functioning_Test">
-                  </a> <!-- Verify_Skip_Button_Functioning_Test -->
-                  <span class="method-name">Verify_Skip_Button_Functioning_Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-e-Hospital_Automation_Testing_Suite_-class-passed -->
-          <div class="suite-e-Hospital_Automation_Testing_Suite_-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.qa.testcases.HomeTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -530,6 +518,35 @@ Session ID: 774ff3e6-2574-4324-b961-ec37757fe6b4
                   <a name="verify_home_page_URL_Test">
                   </a> <!-- verify_home_page_URL_Test -->
                   <span class="method-name">verify_home_page_URL_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-e-Hospital_Automation_Testing_Suite_-class-passed -->
+          <div class="suite-e-Hospital_Automation_Testing_Suite_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTitelTest">
+                  </a> <!-- LoginPageTitelTest -->
+                  <span class="method-name">LoginPageTitelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UsernameTest">
+                  </a> <!-- UsernameTest -->
+                  <span class="method-name">UsernameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="eHospitalLogoTest">
+                  </a> <!-- eHospitalLogoTest -->
+                  <span class="method-name">eHospitalLogoTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -596,80 +613,80 @@ data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verify_patient_registration_link_Test')
 data.setCell(0, 2, 'com.qa.testcases.HomeTest')
-data.setCell(0, 3, 20753);
+data.setCell(0, 3, 20932);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verify_new_registration_link_Test')
 data.setCell(1, 2, 'com.qa.testcases.HomeTest')
-data.setCell(1, 3, 20581);
+data.setCell(1, 3, 20662);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'UsernameTest')
-data.setCell(2, 2, 'com.qa.testcases.LoginTest')
-data.setCell(2, 3, 2318);
+data.setCell(2, 1, 'Verify_Search_Button_Functioning_Test')
+data.setCell(2, 2, 'com.qa.testcases.NewRegistrationTest')
+data.setCell(2, 3, 4410);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Enter_Password_Test')
-data.setCell(3, 2, 'com.qa.testcases.PasswordTest')
-data.setCell(3, 3, 2256);
+data.setCell(3, 1, 'Enter_Mobile_No_Textfield_Test')
+data.setCell(3, 2, 'com.qa.testcases.NewRegistrationTest')
+data.setCell(3, 3, 2351);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Verify_Search_Button_Functioning_Test')
-data.setCell(4, 2, 'com.qa.testcases.NewRegistrationTest')
-data.setCell(4, 3, 1258);
+data.setCell(4, 1, 'UsernameTest')
+data.setCell(4, 2, 'com.qa.testcases.LoginTest')
+data.setCell(4, 3, 2039);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Enter_Mobile_No_Textfield_Test')
+data.setCell(5, 1, 'Verify_Search_Button_Ispresent_Test')
 data.setCell(5, 2, 'com.qa.testcases.NewRegistrationTest')
-data.setCell(5, 3, 1041);
+data.setCell(5, 3, 1827);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Registration_Form_Redirection_Test')
-data.setCell(6, 2, 'com.qa.testcases.NewRegistrationTest')
-data.setCell(6, 3, 999);
+data.setCell(6, 1, 'Enter_Password_Test')
+data.setCell(6, 2, 'com.qa.testcases.PasswordTest')
+data.setCell(6, 3, 1745);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Verify_Skip_Button_Functioning_Test')
+data.setCell(7, 1, 'Verify_Enter_Mobile_Popup_test')
 data.setCell(7, 2, 'com.qa.testcases.NewRegistrationTest')
-data.setCell(7, 3, 969);
+data.setCell(7, 3, 1197);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'Verify_Skip_Button_Availability_Test')
 data.setCell(8, 2, 'com.qa.testcases.NewRegistrationTest')
-data.setCell(8, 3, 952);
+data.setCell(8, 3, 1019);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'Verify_Enter_Mobile_Popup_test')
+data.setCell(9, 1, 'Verify_Skip_Button_Functioning_Test')
 data.setCell(9, 2, 'com.qa.testcases.NewRegistrationTest')
-data.setCell(9, 3, 839);
+data.setCell(9, 3, 931);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'Verify_Search_Button_Ispresent_Test')
-data.setCell(10, 2, 'com.qa.testcases.NewRegistrationTest')
-data.setCell(10, 3, 775);
+data.setCell(10, 1, 'ClickingForgot_Password_Test')
+data.setCell(10, 2, 'com.qa.testcases.PasswordTest')
+data.setCell(10, 3, 613);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'eHospitalLogoTest')
-data.setCell(11, 2, 'com.qa.testcases.LoginTest')
-data.setCell(11, 3, 592);
+data.setCell(11, 1, 'Use_Another_user_Test')
+data.setCell(11, 2, 'com.qa.testcases.PasswordTest')
+data.setCell(11, 3, 582);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'ClickingForgot_Password_Test')
-data.setCell(12, 2, 'com.qa.testcases.PasswordTest')
-data.setCell(12, 3, 501);
+data.setCell(12, 1, 'eHospitalLogoTest')
+data.setCell(12, 2, 'com.qa.testcases.LoginTest')
+data.setCell(12, 3, 292);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'Use_Another_user_Test')
-data.setCell(13, 2, 'com.qa.testcases.PasswordTest')
-data.setCell(13, 3, 481);
+data.setCell(13, 1, 'verify_home_page_URL_Test')
+data.setCell(13, 2, 'com.qa.testcases.HomeTest')
+data.setCell(13, 3, 168);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verify_home_page_URL_Test')
-data.setCell(14, 2, 'com.qa.testcases.HomeTest')
-data.setCell(14, 3, 344);
+data.setCell(14, 1, 'Verify_Username_is_Displayed_Test')
+data.setCell(14, 2, 'com.qa.testcases.PasswordTest')
+data.setCell(14, 3, 115);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'Verify_Username_is_Displayed_Test')
-data.setCell(15, 2, 'com.qa.testcases.PasswordTest')
-data.setCell(15, 3, 157);
+data.setCell(15, 1, 'LoginPageTitelTest')
+data.setCell(15, 2, 'com.qa.testcases.LoginTest')
+data.setCell(15, 3, 112);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'LoginPageTitelTest')
-data.setCell(16, 2, 'com.qa.testcases.LoginTest')
-data.setCell(16, 3, 52);
+data.setCell(16, 1, 'verify_password_page_Title')
+data.setCell(16, 2, 'com.qa.testcases.PasswordTest')
+data.setCell(16, 3, 24);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'verify_password_page_Title')
-data.setCell(17, 2, 'com.qa.testcases.PasswordTest')
-data.setCell(17, 3, 24);
+data.setCell(17, 1, 'Registration_Form_Redirection_Test')
+data.setCell(17, 2, 'com.qa.testcases.NewRegistrationTest')
+data.setCell(17, 3, 12);
 window.suiteTableData['e-Hospital_Automation_Testing_Suite_']= { tableData: data, tableDiv: 'times-div-e-Hospital_Automation_Testing_Suite_'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-e-Hospital_Automation_Testing_Suite_">
               </div> <!-- times-div-e-Hospital_Automation_Testing_Suite_ -->
             </div> <!-- times-div -->
@@ -702,229 +719,227 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginPageTitelTest</span>
-                <span class="method-start">27449 ms</span>
+                <span class="method-start">36648 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">27505 ms</span>
+                <span class="method-start">36767 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">33525 ms</span>
+                <span class="method-start">45448 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">eHospitalLogoTest</span>
-                <span class="method-start">50213 ms</span>
+                <span class="method-start">74084 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">50809 ms</span>
+                <span class="method-start">74380 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">57453 ms</span>
+                <span class="method-start">83377 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">UsernameTest</span>
-                <span class="method-start">77672 ms</span>
+                <span class="method-start">106635 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">79998 ms</span>
+                <span class="method-start">108679 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.PasswordTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">88038 ms</span>
+                <span class="method-start">114108 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_password_page_Title</span>
-                <span class="method-start">111877 ms</span>
+                <span class="method-start">131863 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">111905 ms</span>
+                <span class="method-start">131891 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">119232 ms</span>
+                <span class="method-start">140698 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verify_Username_is_Displayed_Test</span>
-                <span class="method-start">147987 ms</span>
+                <span class="method-start">174171 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">148147 ms</span>
+                <span class="method-start">174289 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">154528 ms</span>
+                <span class="method-start">179601 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Enter_Password_Test</span>
-                <span class="method-start">190965 ms</span>
+                <span class="method-start">202331 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">193225 ms</span>
+                <span class="method-start">204078 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">203649 ms</span>
+                <span class="method-start">213279 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickingForgot_Password_Test</span>
-                <span class="method-start">225371 ms</span>
+                <span class="method-start">233202 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">225876 ms</span>
+                <span class="method-start">233818 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">234116 ms</span>
+                <span class="method-start">241477 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Use_Another_user_Test</span>
-                <span class="method-start">256099 ms</span>
+                <span class="method-start">267235 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">256584 ms</span>
+                <span class="method-start">267820 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.HomeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">264830 ms</span>
+                <span class="method-start">277099 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_home_page_URL_Test</span>
-                <span class="method-start">296928 ms</span>
+                <span class="method-start">312411 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">297288 ms</span>
+                <span class="method-start">312582 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">305568 ms</span>
+                <span class="method-start">320929 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verify_patient_registration_link_Test</span>
-                <span class="method-start">332036 ms</span>
+                <span class="method-start">349441 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">352793 ms</span>
+                <span class="method-start">370379 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">358535 ms</span>
+                <span class="method-start">377091 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verify_new_registration_link_Test</span>
-                <span class="method-start">381787 ms</span>
+                <span class="method-start">400074 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">402372 ms</span>
+                <span class="method-start">420740 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.NewRegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">408937 ms</span>
+                <span class="method-start">427296 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verify_Enter_Mobile_Popup_test</span>
-                <span class="method-start">436817 ms</span>
+                <span class="method-start">452393 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">437661 ms</span>
+                <span class="method-start">453592 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">447869 ms</span>
+                <span class="method-start">460688 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Enter_Mobile_No_Textfield_Test</span>
-                <span class="method-start">477154 ms</span>
+                <span class="method-start">485799 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">478195 ms</span>
+                <span class="method-start">488152 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">486815 ms</span>
+                <span class="method-start">495801 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verify_Search_Button_Ispresent_Test</span>
-                <span class="method-start">511739 ms</span>
+                <span class="method-start">522264 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">512518 ms</span>
+                <span class="method-start">524093 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">522361 ms</span>
+                <span class="method-start">534023 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verify_Search_Button_Functioning_Test</span>
-                <span class="method-start">546711 ms</span>
+                <span class="method-start">572021 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">547971 ms</span>
+                <span class="method-start">576433 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">558665 ms</span>
+                <span class="method-start">584141 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verify_Skip_Button_Availability_Test</span>
-                <span class="method-start">585391 ms</span>
+                <span class="method-start">605724 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">586346 ms</span>
+                <span class="method-start">606745 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">594431 ms</span>
+                <span class="method-start">615539 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verify_Skip_Button_Functioning_Test</span>
-                <span class="method-start">619002 ms</span>
+                <span class="method-start">641328 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">619973 ms</span>
+                <span class="method-start">642263 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Setup</span>
-                <span class="method-start">627512 ms</span>
+                <span class="method-start">651753 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Registration_Form_Redirection_Test</span>
-                <span class="method-start">651689 ms</span>
+                <span class="method-start">697563 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">Teardown</span>
-                <span class="method-start">652690 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,0 +1,9 @@
+com\qa\util\TestUtil.class
+com\qa\pages\NewRegistration.class
+com\qa\pages\Password.class
+com\qa\pages\PasswordRecovery.class
+com\qa\extentreportlistener\ExtentReporterNG.class
+com\qa\pages\Home.class
+com\qa\util\WebEventlistner.class
+com\qa\base\TestBase.class
+com\qa\pages\Login.class

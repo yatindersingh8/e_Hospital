@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.events.WebDriverEventListener;
@@ -56,7 +57,14 @@ public class TestBase {
 			else if(BrowserName.equals("FireFox"))
 			{
 				System.setProperty("webdriver.gecko.driver","E:\\ehospital\\Hospital\\Drivers\\geckodriver.exe");
-				driver = new FirefoxDriver();
+				//driver = new FirefoxDriver();
+				 final FirefoxOptions options = new FirefoxOptions();
+			        System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+			        options.addPreference("browser.popups.showPopupBlocker", false);
+			        options.addPreference("security.sandbox.content.level", 5);
+
+			    driver = new FirefoxDriver(options);
+				
 			}
 			
 			else if(BrowserName.equals("IE"))
