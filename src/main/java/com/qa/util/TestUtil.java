@@ -22,7 +22,7 @@ import com.qa.base.TestBase;
 public class TestUtil extends TestBase {
 	
 	public static long PageLoadTimeout = 20;
-	public static long ImplicitWaitTime = 20;
+	public static long ImplicitWaitTime = 40;
 	public static String TESTDATA_SHEET_PATH = "E:\\ehospital\\Hospital\\src\\main\\java\\com\\qa\\testdata\\eHospital_TestData.xlsx";
 	static Workbook book;
 	static Sheet sheet;

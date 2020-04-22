@@ -1,208 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="7" failed="2" total="18" passed="9">
+<testng-results skipped="7" failed="1" total="18" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="351613" started-at="2020-04-21T05:18:22Z" finished-at="2020-04-21T05:24:14Z">
+  <suite name="Command line suite" duration-ms="495550" started-at="2020-04-22T09:52:32Z" finished-at="2020-04-22T10:00:47Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="351613" started-at="2020-04-21T05:18:22Z" finished-at="2020-04-21T05:24:14Z">
+    <test name="Command line test" duration-ms="495550" started-at="2020-04-22T09:52:32Z" finished-at="2020-04-22T10:00:47Z">
       <class name="com.qa.testcases.PasswordTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Setup" is-config="true" duration-ms="18745" started-at="2020-04-21T10:49:55Z" finished-at="2020-04-21T10:50:13Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Setup" is-config="true" duration-ms="32948" started-at="2020-04-22T15:24:50Z" finished-at="2020-04-22T15:25:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verify_password_page_Title()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="verify_password_page_Title" duration-ms="14" started-at="2020-04-21T10:50:13Z" finished-at="2020-04-21T10:50:13Z">
+        <test-method status="PASS" signature="verify_password_page_Title()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="verify_password_page_Title" duration-ms="16" started-at="2020-04-22T15:25:22Z" finished-at="2020-04-22T15:25:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_password_page_Title -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Teardown" is-config="true" duration-ms="6538" started-at="2020-04-21T10:50:13Z" finished-at="2020-04-21T10:50:20Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Teardown" is-config="true" duration-ms="6205" started-at="2020-04-22T15:25:22Z" finished-at="2020-04-22T15:25:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Setup" is-config="true" duration-ms="18906" started-at="2020-04-21T10:51:27Z" finished-at="2020-04-21T10:51:46Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Setup" is-config="true" duration-ms="27909" started-at="2020-04-22T15:26:27Z" finished-at="2020-04-22T15:26:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="Verify_Username_is_Displayed_Test()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Verify_Username_is_Displayed_Test" duration-ms="125" started-at="2020-04-21T10:51:46Z" finished-at="2020-04-21T10:51:46Z">
+        <test-method status="PASS" signature="Verify_Username_is_Displayed_Test()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Verify_Username_is_Displayed_Test" duration-ms="109" started-at="2020-04-22T15:26:55Z" finished-at="2020-04-22T15:26:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Username_is_Displayed_Test -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Teardown" is-config="true" duration-ms="7160" started-at="2020-04-21T10:51:46Z" finished-at="2020-04-21T10:51:54Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Teardown" is-config="true" duration-ms="8049" started-at="2020-04-22T15:26:55Z" finished-at="2020-04-22T15:27:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Setup" is-config="true" duration-ms="16629" started-at="2020-04-21T10:52:40Z" finished-at="2020-04-21T10:52:57Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Setup" is-config="true" duration-ms="27798" started-at="2020-04-22T15:28:38Z" finished-at="2020-04-22T15:29:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="Enter_Password_Test()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Enter_Password_Test" duration-ms="21338" started-at="2020-04-21T10:52:57Z" finished-at="2020-04-21T10:53:18Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //*[@id="ehosfrm"]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL', ip: '192.168.29.210', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9080, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f0382b5-bf75-4005-ad41-33a747fc56e5
-*** Element info: {Using=xpath, value=//*[@id="ehosfrm"]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id="ehosfrm"]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL', ip: '192.168.29.210', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9080, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f0382b5-bf75-4005-ad41-33a747fc56e5
-*** Element info: {Using=xpath, value=//*[@id="ehosfrm"]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy5.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at com.qa.util.TestUtil.MainFrame(TestUtil.java:36)
-	at com.qa.testcases.PasswordTest.Enter_Password_Test(PasswordTest.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="Enter_Password_Test()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Enter_Password_Test" duration-ms="2243" started-at="2020-04-22T15:29:06Z" finished-at="2020-04-22T15:29:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Enter_Password_Test -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Teardown" is-config="true" duration-ms="6112" started-at="2020-04-21T10:53:18Z" finished-at="2020-04-21T10:53:24Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Teardown" is-config="true" duration-ms="9037" started-at="2020-04-22T15:29:08Z" finished-at="2020-04-22T15:29:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Setup" is-config="true" duration-ms="17285" started-at="2020-04-21T10:53:24Z" finished-at="2020-04-21T10:53:42Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Setup" is-config="true" duration-ms="31460" started-at="2020-04-22T15:29:17Z" finished-at="2020-04-22T15:29:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="ClickingForgot_Password_Test()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="ClickingForgot_Password_Test" duration-ms="547" started-at="2020-04-21T10:53:42Z" finished-at="2020-04-21T10:53:42Z">
+        <test-method status="PASS" signature="ClickingForgot_Password_Test()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="ClickingForgot_Password_Test" duration-ms="1043" started-at="2020-04-22T15:29:49Z" finished-at="2020-04-22T15:29:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickingForgot_Password_Test -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Teardown" is-config="true" duration-ms="5926" started-at="2020-04-21T10:53:42Z" finished-at="2020-04-21T10:53:48Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Teardown" is-config="true" duration-ms="9318" started-at="2020-04-22T15:29:50Z" finished-at="2020-04-22T15:29:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Setup" is-config="true" duration-ms="18527" started-at="2020-04-21T10:53:48Z" finished-at="2020-04-21T10:54:07Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Setup" is-config="true" duration-ms="38086" started-at="2020-04-22T15:29:59Z" finished-at="2020-04-22T15:30:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="Use_Another_user_Test()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Use_Another_user_Test" duration-ms="741" started-at="2020-04-21T10:54:07Z" finished-at="2020-04-21T10:54:07Z">
+        <test-method status="PASS" signature="Use_Another_user_Test()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Use_Another_user_Test" duration-ms="1332" started-at="2020-04-22T15:30:37Z" finished-at="2020-04-22T15:30:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Use_Another_user_Test -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Teardown" is-config="true" duration-ms="6180" started-at="2020-04-21T10:54:07Z" finished-at="2020-04-21T10:54:14Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.PasswordTest@4157f54e]" name="Teardown" is-config="true" duration-ms="8537" started-at="2020-04-22T15:30:39Z" finished-at="2020-04-22T15:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- com.qa.testcases.PasswordTest -->
       <class name="com.qa.testcases.LoginTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Setup" is-config="true" duration-ms="17358" started-at="2020-04-21T10:48:52Z" finished-at="2020-04-21T10:49:10Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Setup" is-config="true" duration-ms="26695" started-at="2020-04-22T15:23:24Z" finished-at="2020-04-22T15:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="LoginPageTitelTest()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="LoginPageTitelTest" duration-ms="28" started-at="2020-04-21T10:49:10Z" finished-at="2020-04-21T10:49:10Z">
+        <test-method status="PASS" signature="LoginPageTitelTest()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="LoginPageTitelTest" duration-ms="34" started-at="2020-04-22T15:23:50Z" finished-at="2020-04-22T15:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitelTest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Teardown" is-config="true" duration-ms="5231" started-at="2020-04-21T10:49:10Z" finished-at="2020-04-21T10:49:15Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Teardown" is-config="true" duration-ms="7922" started-at="2020-04-22T15:23:50Z" finished-at="2020-04-22T15:23:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Setup" is-config="true" duration-ms="15798" started-at="2020-04-21T10:51:05Z" finished-at="2020-04-21T10:51:21Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Setup" is-config="true" duration-ms="23125" started-at="2020-04-22T15:25:58Z" finished-at="2020-04-22T15:26:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="eHospitalLogoTest()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="eHospitalLogoTest" duration-ms="346" started-at="2020-04-21T10:51:21Z" finished-at="2020-04-21T10:51:21Z">
+        <test-method status="PASS" signature="eHospitalLogoTest()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="eHospitalLogoTest" duration-ms="216" started-at="2020-04-22T15:26:21Z" finished-at="2020-04-22T15:26:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eHospitalLogoTest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Teardown" is-config="true" duration-ms="6009" started-at="2020-04-21T10:51:21Z" finished-at="2020-04-21T10:51:27Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Teardown" is-config="true" duration-ms="5436" started-at="2020-04-22T15:26:21Z" finished-at="2020-04-22T15:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Setup" is-config="true" duration-ms="13705" started-at="2020-04-21T10:52:18Z" finished-at="2020-04-21T10:52:32Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Setup" is-config="true" duration-ms="27277" started-at="2020-04-22T15:27:59Z" finished-at="2020-04-22T15:28:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="UsernameTest()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="UsernameTest" duration-ms="1995" started-at="2020-04-21T10:52:32Z" finished-at="2020-04-21T10:52:34Z">
+        <test-method status="PASS" signature="UsernameTest()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="UsernameTest" duration-ms="4281" started-at="2020-04-22T15:28:27Z" finished-at="2020-04-22T15:28:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UsernameTest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Teardown" is-config="true" duration-ms="6537" started-at="2020-04-21T10:52:34Z" finished-at="2020-04-21T10:52:40Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.LoginTest@62043840]" name="Teardown" is-config="true" duration-ms="7367" started-at="2020-04-22T15:28:31Z" finished-at="2020-04-22T15:28:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- com.qa.testcases.LoginTest -->
       <class name="com.qa.testcases.HomeTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Setup" is-config="true" duration-ms="23700" started-at="2020-04-21T10:48:22Z" finished-at="2020-04-21T10:48:46Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Setup" is-config="true" duration-ms="44876" started-at="2020-04-22T15:22:32Z" finished-at="2020-04-22T15:23:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verify_home_page_URL_Test()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="verify_home_page_URL_Test" duration-ms="274" started-at="2020-04-21T10:48:46Z" finished-at="2020-04-21T10:48:46Z">
+        <test-method status="PASS" signature="verify_home_page_URL_Test()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="verify_home_page_URL_Test" duration-ms="363" started-at="2020-04-22T15:23:17Z" finished-at="2020-04-22T15:23:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_home_page_URL_Test -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Teardown" is-config="true" duration-ms="6389" started-at="2020-04-21T10:48:46Z" finished-at="2020-04-21T10:48:52Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Teardown" is-config="true" duration-ms="6682" started-at="2020-04-22T15:23:17Z" finished-at="2020-04-22T15:23:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Setup" is-config="true" duration-ms="19174" started-at="2020-04-21T10:50:20Z" finished-at="2020-04-21T10:50:39Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Setup" is-config="true" duration-ms="19950" started-at="2020-04-22T15:25:29Z" finished-at="2020-04-22T15:25:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="verify_patient_registration_link_Test()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="verify_patient_registration_link_Test" duration-ms="20518" started-at="2020-04-21T10:50:39Z" finished-at="2020-04-21T10:51:00Z">
+        <test-method status="PASS" signature="verify_patient_registration_link_Test()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="verify_patient_registration_link_Test" duration-ms="484" started-at="2020-04-22T15:25:49Z" finished-at="2020-04-22T15:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_patient_registration_link_Test -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Teardown" is-config="true" duration-ms="8732" started-at="2020-04-22T15:25:49Z" finished-at="2020-04-22T15:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Setup" is-config="true" duration-ms="30513" started-at="2020-04-22T15:27:03Z" finished-at="2020-04-22T15:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="verify_new_registration_link_Test()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="verify_new_registration_link_Test" duration-ms="20545" started-at="2020-04-22T15:27:33Z" finished-at="2020-04-22T15:27:54Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //*[@id="ehosfrm"]
@@ -210,8 +143,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL', ip: '192.168.29.210', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10640, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 29cb9375-bc0f-4935-9ce7-52724143e015
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8224, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb9387d7-5108-4151-9fd2-579f9f0d166f
 *** Element info: {Using=xpath, value=//*[@id="ehosfrm"]}]]>
             </message>
             <full-stacktrace>
@@ -220,8 +153,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL', ip: '192.168.29.210', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10640, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 29cb9375-bc0f-4935-9ce7-52724143e015
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8224, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb9387d7-5108-4151-9fd2-579f9f0d166f
 *** Element info: {Using=xpath, value=//*[@id="ehosfrm"]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -237,14 +170,14 @@ Session ID: 29cb9375-bc0f-4935-9ce7-52724143e015
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
 	at com.sun.proxy.$Proxy5.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at com.qa.util.TestUtil.MainFrame(TestUtil.java:36)
-	at com.qa.testcases.HomeTest.verify_patient_registration_link_Test(HomeTest.java:49)
+	at com.qa.testcases.HomeTest.verify_new_registration_link_Test(HomeTest.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -284,26 +217,14 @@ Session ID: 29cb9375-bc0f-4935-9ce7-52724143e015
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_patient_registration_link_Test -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Teardown" is-config="true" duration-ms="5669" started-at="2020-04-21T10:51:00Z" finished-at="2020-04-21T10:51:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Setup" is-config="true" duration-ms="17101" started-at="2020-04-21T10:51:54Z" finished-at="2020-04-21T10:52:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verify_new_registration_link_Test()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="verify_new_registration_link_Test" duration-ms="735" started-at="2020-04-21T10:52:11Z" finished-at="2020-04-21T10:52:11Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- verify_new_registration_link_Test -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Teardown" is-config="true" duration-ms="6718" started-at="2020-04-21T10:52:11Z" finished-at="2020-04-21T10:52:18Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.HomeTest@90f6bfd]" name="Teardown" is-config="true" duration-ms="5624" started-at="2020-04-22T15:27:54Z" finished-at="2020-04-22T15:27:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- com.qa.testcases.HomeTest -->
       <class name="com.qa.testcases.NewRegistrationTest">
-        <test-method status="FAIL" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-21T10:49:15Z" finished-at="2020-04-21T10:49:15Z">
+        <test-method status="FAIL" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-22T15:23:58Z" finished-at="2020-04-22T15:23:58Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //*[@id="ehosfrm"]
@@ -311,8 +232,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL', ip: '192.168.29.210', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8488, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7c1b0470-8138-4d29-a93c-de883874fef5
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 1860, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 72adc085-eb60-4438-a8ac-7b31da3961b0
 *** Element info: {Using=xpath, value=//*[@id="ehosfrm"]}]]>
             </message>
             <full-stacktrace>
@@ -321,8 +242,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL', ip: '192.168.29.210', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8488, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7c1b0470-8138-4d29-a93c-de883874fef5
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 1860, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 72adc085-eb60-4438-a8ac-7b31da3961b0
 *** Element info: {Using=xpath, value=//*[@id="ehosfrm"]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -389,86 +310,86 @@ Session ID: 7c1b0470-8138-4d29-a93c-de883874fef5
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="SKIP" signature="Verify_Enter_Mobile_Popup_test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Verify_Enter_Mobile_Popup_test" duration-ms="1" started-at="2020-04-21T10:49:55Z" finished-at="2020-04-21T10:49:55Z">
+        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-22T15:24:50Z" finished-at="2020-04-22T15:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="SKIP" signature="Verify_Enter_Mobile_Popup_test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Verify_Enter_Mobile_Popup_test" duration-ms="0" started-at="2020-04-22T15:24:50Z" finished-at="2020-04-22T15:24:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Enter_Mobile_Popup_test -->
-        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-21T10:49:55Z" finished-at="2020-04-21T10:49:55Z">
+        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-22T15:26:27Z" finished-at="2020-04-22T15:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-21T10:51:27Z" finished-at="2020-04-21T10:51:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="SKIP" signature="Enter_Mobile_No_Textfield_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Enter_Mobile_No_Textfield_Test" duration-ms="0" started-at="2020-04-21T10:51:27Z" finished-at="2020-04-21T10:51:27Z">
+        <test-method status="SKIP" signature="Enter_Mobile_No_Textfield_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Enter_Mobile_No_Textfield_Test" duration-ms="0" started-at="2020-04-22T15:26:27Z" finished-at="2020-04-22T15:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Enter_Mobile_No_Textfield_Test -->
-        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-21T10:51:27Z" finished-at="2020-04-21T10:51:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-21T10:52:40Z" finished-at="2020-04-21T10:52:40Z">
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-22T15:26:27Z" finished-at="2020-04-22T15:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="SKIP" signature="Verify_Search_Button_Ispresent_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Verify_Search_Button_Ispresent_Test" duration-ms="1" started-at="2020-04-21T10:52:40Z" finished-at="2020-04-21T10:52:40Z">
+        <test-method status="SKIP" signature="Verify_Search_Button_Ispresent_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Verify_Search_Button_Ispresent_Test" duration-ms="0" started-at="2020-04-22T15:28:38Z" finished-at="2020-04-22T15:28:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Search_Button_Ispresent_Test -->
-        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-21T10:52:40Z" finished-at="2020-04-21T10:52:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-21T10:53:24Z" finished-at="2020-04-21T10:53:24Z">
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-22T15:28:38Z" finished-at="2020-04-22T15:28:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="SKIP" signature="Verify_Search_Button_Functioning_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Verify_Search_Button_Functioning_Test" duration-ms="0" started-at="2020-04-21T10:53:24Z" finished-at="2020-04-21T10:53:24Z">
+        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-22T15:28:38Z" finished-at="2020-04-22T15:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="SKIP" signature="Verify_Search_Button_Functioning_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Verify_Search_Button_Functioning_Test" duration-ms="0" started-at="2020-04-22T15:29:17Z" finished-at="2020-04-22T15:29:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Search_Button_Functioning_Test -->
-        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-21T10:53:24Z" finished-at="2020-04-21T10:53:24Z">
+        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-22T15:29:17Z" finished-at="2020-04-22T15:29:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-21T10:53:48Z" finished-at="2020-04-21T10:53:48Z">
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-22T15:29:17Z" finished-at="2020-04-22T15:29:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="SKIP" signature="Verify_Skip_Button_Availability_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Verify_Skip_Button_Availability_Test" duration-ms="0" started-at="2020-04-21T10:53:48Z" finished-at="2020-04-21T10:53:48Z">
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-22T15:29:59Z" finished-at="2020-04-22T15:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-22T15:29:59Z" finished-at="2020-04-22T15:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="SKIP" signature="Verify_Skip_Button_Availability_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Verify_Skip_Button_Availability_Test" duration-ms="0" started-at="2020-04-22T15:29:59Z" finished-at="2020-04-22T15:29:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Skip_Button_Availability_Test -->
-        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-21T10:53:48Z" finished-at="2020-04-21T10:53:48Z">
+        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-22T15:30:47Z" finished-at="2020-04-22T15:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-21T10:54:14Z" finished-at="2020-04-21T10:54:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-21T10:54:14Z" finished-at="2020-04-21T10:54:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-        <test-method status="SKIP" signature="Verify_Skip_Button_Functioning_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Verify_Skip_Button_Functioning_Test" duration-ms="0" started-at="2020-04-21T10:54:14Z" finished-at="2020-04-21T10:54:14Z">
+        <test-method status="SKIP" signature="Verify_Skip_Button_Functioning_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Verify_Skip_Button_Functioning_Test" duration-ms="0" started-at="2020-04-22T15:30:47Z" finished-at="2020-04-22T15:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Skip_Button_Functioning_Test -->
-        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-21T10:54:14Z" finished-at="2020-04-21T10:54:14Z">
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-22T15:30:47Z" finished-at="2020-04-22T15:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="SKIP" signature="Registration_Form_Redirection_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Registration_Form_Redirection_Test" duration-ms="1" started-at="2020-04-21T10:54:14Z" finished-at="2020-04-21T10:54:14Z">
+        <test-method status="SKIP" signature="Registration_Form_Redirection_Test()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Registration_Form_Redirection_Test" duration-ms="0" started-at="2020-04-22T15:30:47Z" finished-at="2020-04-22T15:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration_Form_Redirection_Test -->
-        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-21T10:54:14Z" finished-at="2020-04-21T10:54:14Z">
+        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-04-22T15:30:47Z" finished-at="2020-04-22T15:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com.qa.testcases.NewRegistrationTest@327471b5]" name="Setup" is-config="true" duration-ms="0" started-at="2020-04-22T15:30:47Z" finished-at="2020-04-22T15:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
       </class> <!-- com.qa.testcases.NewRegistrationTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->

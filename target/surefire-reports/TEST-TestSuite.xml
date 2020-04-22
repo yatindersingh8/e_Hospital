@@ -1,107 +1,115 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="32" failures="3" name="TestSuite" time="147.109" errors="0" skipped="20">
+<testsuite tests="32" failures="2" name="TestSuite" time="138.705" errors="0" skipped="20">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="abc"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="588c6adb92185e07"/>
+    <property name="JENKINS_HOME" value="C:\Users\Yatan\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="d5411d97c19172f2"/>
+    <property name="POM_ARTIFACTID" value="Hospital"/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="java" value="C:\Program Files\Java\jre1.8.0_171\bin"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
     <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Hospital"/>
     <property name="NODE_LABELS" value="master"/>
-    <property name="TEMP" value="C:\Windows\TEMP"/>
+    <property name="TEMP" value="C:\Users\Yatan\AppData\Local\Temp"/>
     <property name="java.runtime.version" value="1.8.0_251-b08"/>
-    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
     <property name="JAVA_Home" value="C:\Program Files\Java\jdk1.8.0_251"/>
-    <property name="user.name" value="DELL$"/>
+    <property name="user.name" value="Yatan"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="abc"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/abc/1/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/abc/11/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#11"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Yatan\AppData\Local"/>
     <property name="java.version" value="1.8.0_251"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="USERNAME" value="DELL$"/>
+    <property name="USERNAME" value="Yatan"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
-    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
     <property name="UOIPME_REG_PATH" value="C:\Program Files\Intel Corporation\USB over IP"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="file.separator" value="\"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="maven.conf" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\test\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\Yatan\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\_maven\conf"/>
     <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="user.country" value="US"/>
     <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="6.3"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/abc/1/display/redirect"/>
-    <property name="TMP" value="C:\Windows\TEMP"/>
+    <property name="=ExitCode" value="00000082"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/abc/11/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\Yatan\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.251-b08"/>
     <property name="user.variant" value=""/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/abc/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="Dell"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\Yatan"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="SERVICE_ID" value="Jenkins"/>
-    <property name="COMPUTERNAME" value="DELL"/>
-    <property name="user.script" value=""/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="asl.log" value="Destination=file"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="DELL"/>
+    <property name="POM_GROUPID" value="Hospital"/>
+    <property name="user.home" value="C:\Users\Yatan"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
-    <property name="BUILD_TAG" value="jenkins-abc-1"/>
-    <property name="JENKINS_SERVER_COOKIE" value="588c6adb92185e07"/>
+    <property name="BUILD_TAG" value="jenkins-abc-11"/>
+    <property name="JENKINS_SERVER_COOKIE" value="d5411d97c19172f2"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="USERPROFILE" value="C:\Users\Yatan"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\test/bin;C:\Program Files\Java\jdk1.8.0_251/bin;C:\Program Files\Java\jdk1.8.0_251/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Yatinder\software\New folder\mysql-8.0.12-winx64\mysql-8.0.12-winx64\bin;C:\Program Files\Git\cmd;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Yatan\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\_maven/bin;C:\Program Files\Java\jdk1.8.0_251/bin;C:\Program Files\Java\jdk1.8.0_251/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Yatinder\software\New folder\mysql-8.0.12-winx64\mysql-8.0.12-winx64\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_251\bin;."/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="APPDATA" value="C:\Users\Yatan\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\test"/>
-    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\test\boot\plexus-classworlds-2.6.0.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\test/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\test C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-4.2.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 55425"/>
-    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_251/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Yatinder\software\New folder\mysql-8.0.12-winx64\mysql-8.0.12-winx64\bin;C:\Program Files\Git\cmd;"/>
+    <property name="maven.home" value="C:\Users\Yatan\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\_maven"/>
+    <property name="java.class.path" value="C:\Users\Yatan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\Yatan\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\_maven\boot\plexus-classworlds-2.6.0.jar;C:\Users\Yatan\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\_maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Yatan\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\_maven C:\Users\Yatan\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\Yatan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Yatan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 63867"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_251/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Yatinder\software\New folder\mysql-8.0.12-winx64\mysql-8.0.12-winx64\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_251\bin"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_251/bin"/>
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="M2_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\test"/>
-    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="M2_HOME" value="C:\Users\Yatan\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\_maven"/>
+    <property name="java.io.tmpdir" value="C:\Users\Yatan\AppData\Local\Temp\"/>
     <property name="OS" value="Windows_NT"/>
-    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\test/bin"/>
+    <property name="HUDSON_HOME" value="C:\Users\Yatan\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\Yatan\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\_maven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/abc/1/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/abc/11/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -109,44 +117,44 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="user.dir" value="E:\ehospital\Hospital"/>
     <property name="JOB_URL" value="http://localhost:8080/job/abc/"/>
-    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="LOGONSERVER" value="\\DELL"/>
+    <property name="USERDOMAIN" value="Dell"/>
     <property name="line.separator" value="
 "/>
-    <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\test"/>
+    <property name="MAVEN_HOME" value="C:\Users\Yatan\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\_maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1"/>
-    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="BUILD_NUMBER" value="11"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="4501"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Program Files (x86)\Jenkins"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\Program Files (x86)\Jenkins\workspace\abc@tmp"/>
-    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\abc"/>
-    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
-    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="maven3.interceptor" value="C:\Users\Yatan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\Yatan\.jenkins\workspace\abc@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\Yatan\.jenkins\workspace\abc"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Yatan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
-  <testcase classname="com.qa.testcases.HomeTest" name="verify_home_page_URL_Test" time="0.291"/>
-  <testcase classname="com.qa.testcases.LoginTest" name="LoginPageTitelTest" time="0.029"/>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="44.74">
+  <testcase classname="com.qa.testcases.HomeTest" name="verify_home_page_URL_Test" time="0.381"/>
+  <testcase classname="com.qa.testcases.LoginTest" name="LoginPageTitelTest" time="0.027"/>
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="59.212">
     <failure message="Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8488, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7c1b0470-8138-4d29-a93c-de883874fef5
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 1860, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 72adc085-eb60-4438-a8ac-7b31da3961b0
 *** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8488, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7c1b0470-8138-4d29-a93c-de883874fef5
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 1860, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 72adc085-eb60-4438-a8ac-7b31da3961b0
 *** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -181,41 +189,44 @@ Trying to find Element By : By.name: ddl_mod
 Found Element By : By.name: ddl_mod
 Trying to find Element By : By.xpath: .//option[@value = &quot;default_url&quot;]
 Found Element By : By.xpath: .//option[@value = &quot;default_url&quot;]
-Trying to click on: [[[[FirefoxDriver: firefox on WINDOWS (7c1b0470-8138-4d29-a93c-de883874fef5)] -&gt; name: ddl_mod]] -&gt; xpath: .//option[@value = &quot;default_url&quot;]]
-Clicked on: [[[[FirefoxDriver: firefox on WINDOWS (7c1b0470-8138-4d29-a93c-de883874fef5)] -&gt; name: ddl_mod]] -&gt; xpath: .//option[@value = &quot;default_url&quot;]]
 Invalid Module detail Entered
 Trying to find Element By : By.xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button
 Found Element By : By.xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button
-Trying to click on: [[FirefoxDriver: firefox on WINDOWS (7c1b0470-8138-4d29-a93c-de883874fef5)] -&gt; xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button]
-Clicked on: [[FirefoxDriver: firefox on WINDOWS (7c1b0470-8138-4d29-a93c-de883874fef5)] -&gt; xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (72adc085-eb60-4438-a8ac-7b31da3961b0)] -&gt; xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (72adc085-eb60-4438-a8ac-7b31da3961b0)] -&gt; xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button]
 Trying to find Element By : By.id: txt_pwd
 Found Element By : By.id: txt_pwd
 Trying to find Element By : By.xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button
 Found Element By : By.xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button
-Trying to click on: [[FirefoxDriver: firefox on WINDOWS (7c1b0470-8138-4d29-a93c-de883874fef5)] -&gt; xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button]
-Clicked on: [[FirefoxDriver: firefox on WINDOWS (7c1b0470-8138-4d29-a93c-de883874fef5)] -&gt; xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (72adc085-eb60-4438-a8ac-7b31da3961b0)] -&gt; xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (72adc085-eb60-4438-a8ac-7b31da3961b0)] -&gt; xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button]
 Trying to find Element By : By.xpath: //*[@id=&quot;ehosfrm&quot;]
 Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8488, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7c1b0470-8138-4d29-a93c-de883874fef5
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 1860, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 72adc085-eb60-4438-a8ac-7b31da3961b0
 *** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}
 </system-out>
-    <system-err>1587446350359	Marionette	INFO	Stopped listening on port 55483
-1587446356176	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Windows\\TEMP\\rust_mozprofile.3MKoab66EOvv&quot;
-1587446358165	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension &apos;doh-rollout@mozilla.org&apos;: Reading manifest: Invalid extension permission: networkStatus
-1587446360890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: mozillaAddons
-1587446360890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: telemetry
-1587446360891	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: resource://pdf.js/
-1587446360891	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: about:reader*
+    <system-err>1587549230832	Marionette	INFO	Stopped listening on port 63939
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1587549239352	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\Yatan\\AppData\\Local\\Temp\\rust_mozprofile.zdLGInmeH2m3&quot;
+1587549240954	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension &apos;doh-rollout@mozilla.org&apos;: Reading manifest: Invalid extension permission: networkStatus
+1587549243524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: mozillaAddons
+1587549243525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: telemetry
+1587549243525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: resource://pdf.js/
+1587549243526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: about:reader*
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can&apos;t find profile directory.
-1587446366545	Marionette	INFO	Listening on port 55531
-1587446366608	Marionette	WARN	TLS certificate errors will be ignored for this session
-Apr 21, 2020 10:49:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1587549249197	Marionette	INFO	Listening on port 63979
+1587549249268	Marionette	WARN	TLS certificate errors will be ignored for this session
+Apr 22, 2020 3:24:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
 </system-err>
   </testcase>
   <testcase classname="com.qa.testcases.NewRegistrationTest" name="Verify_Enter_Mobile_Popup_test" time="0">
@@ -224,97 +235,18 @@ INFO: Detected dialect: W3C
   <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.qa.testcases.PasswordTest" name="verify_password_page_Title" time="0.014"/>
-  <testcase classname="com.qa.testcases.HomeTest" name="verify_patient_registration_link_Test" time="20.524">
-    <failure message="Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10640, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 29cb9375-bc0f-4935-9ce7-52724143e015
-*** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10640, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 29cb9375-bc0f-4935-9ce7-52724143e015
-*** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy5.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at com.qa.util.TestUtil.MainFrame(TestUtil.java:36)
-	at com.qa.testcases.HomeTest.verify_patient_registration_link_Test(HomeTest.java:49)
-</failure>
-    <system-out>FireFox
-Before navigating to: &apos;https://ehospital.nic.in/ehospitalsso/&apos;
-Navigated to:&apos;https://ehospital.nic.in/ehospitalsso/&apos;
-Trying to find Element By : By.id: txtuid
-Found Element By : By.id: txtuid
-Trying to find Element By : By.name: ddl_mod
-Found Element By : By.name: ddl_mod
-Trying to find Element By : By.xpath: .//option[@value = &quot;default_url&quot;]
-Found Element By : By.xpath: .//option[@value = &quot;default_url&quot;]
-Trying to click on: [[[[FirefoxDriver: firefox on WINDOWS (29cb9375-bc0f-4935-9ce7-52724143e015)] -&gt; name: ddl_mod]] -&gt; xpath: .//option[@value = &quot;default_url&quot;]]
-Clicked on: [[[[FirefoxDriver: firefox on WINDOWS (29cb9375-bc0f-4935-9ce7-52724143e015)] -&gt; name: ddl_mod]] -&gt; xpath: .//option[@value = &quot;default_url&quot;]]
-Invalid Module detail Entered
-Trying to find Element By : By.xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button
-Found Element By : By.xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button
-Trying to click on: [[FirefoxDriver: firefox on WINDOWS (29cb9375-bc0f-4935-9ce7-52724143e015)] -&gt; xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button]
-Clicked on: [[FirefoxDriver: firefox on WINDOWS (29cb9375-bc0f-4935-9ce7-52724143e015)] -&gt; xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button]
-Trying to find Element By : By.id: txt_pwd
-Found Element By : By.id: txt_pwd
-Trying to find Element By : By.xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button
-Found Element By : By.xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button
-Trying to click on: [[FirefoxDriver: firefox on WINDOWS (29cb9375-bc0f-4935-9ce7-52724143e015)] -&gt; xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button]
-Clicked on: [[FirefoxDriver: firefox on WINDOWS (29cb9375-bc0f-4935-9ce7-52724143e015)] -&gt; xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button]
-Trying to find Element By : By.xpath: //*[@id=&quot;ehosfrm&quot;]
-Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10640, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 29cb9375-bc0f-4935-9ce7-52724143e015
-*** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}
-</system-out>
-    <system-err>1587446413826	Marionette	INFO	Stopped listening on port 55580
-JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-1587446420939	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Windows\\TEMP\\rust_mozprofile.CaSxNtdpbCsr&quot;
-1587446422392	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension &apos;doh-rollout@mozilla.org&apos;: Reading manifest: Invalid extension permission: networkStatus
-1587446425165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: mozillaAddons
-1587446425166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: telemetry
-1587446425166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: resource://pdf.js/
-1587446425167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: about:reader*
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can&apos;t find profile directory.
-1587446431317	Marionette	INFO	Listening on port 55632
-1587446431377	Marionette	WARN	TLS certificate errors will be ignored for this session
-Apr 21, 2020 10:50:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="com.qa.testcases.LoginTest" name="eHospitalLogoTest" time="0.333"/>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="6.341">
+  <testcase classname="com.qa.testcases.PasswordTest" name="verify_password_page_Title" time="0.016"/>
+  <testcase classname="com.qa.testcases.HomeTest" name="verify_patient_registration_link_Test" time="0.484"/>
+  <testcase classname="com.qa.testcases.LoginTest" name="eHospitalLogoTest" time="0.22"/>
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="5.652">
     <skipped/>
-    <system-err>1587446481917	Marionette	INFO	Stopped listening on port 55696
+    <system-err>1587549381688	Marionette	INFO	Stopped listening on port 64131
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
 </system-err>
   </testcase>
   <testcase classname="com.qa.testcases.NewRegistrationTest" name="Enter_Mobile_No_Textfield_Test" time="0">
@@ -323,36 +255,22 @@ INFO: Detected dialect: W3C
   <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.qa.testcases.PasswordTest" name="Verify_Username_is_Displayed_Test" time="0.108"/>
-  <testcase classname="com.qa.testcases.HomeTest" name="verify_new_registration_link_Test" time="0.718"/>
-  <testcase classname="com.qa.testcases.LoginTest" name="UsernameTest" time="1.995"/>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="8.533">
-    <skipped/>
-    <system-err>1587446554341	Marionette	INFO	Stopped listening on port 55867
-JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-</system-err>
-  </testcase>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Verify_Search_Button_Ispresent_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.qa.testcases.PasswordTest" name="Enter_Password_Test" time="21.342">
+  <testcase classname="com.qa.testcases.PasswordTest" name="Verify_Username_is_Displayed_Test" time="0.094"/>
+  <testcase classname="com.qa.testcases.HomeTest" name="verify_new_registration_link_Test" time="20.553">
     <failure message="Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9080, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f0382b5-bf75-4005-ad41-33a747fc56e5
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8224, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb9387d7-5108-4151-9fd2-579f9f0d166f
 *** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9080, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f0382b5-bf75-4005-ad41-33a747fc56e5
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8224, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb9387d7-5108-4151-9fd2-579f9f0d166f
 *** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -368,14 +286,14 @@ Session ID: 2f0382b5-bf75-4005-ad41-33a747fc56e5
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
 	at com.sun.proxy.$Proxy5.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at com.qa.util.TestUtil.MainFrame(TestUtil.java:36)
-	at com.qa.testcases.PasswordTest.Enter_Password_Test(PasswordTest.java:55)
+	at com.qa.testcases.HomeTest.verify_new_registration_link_Test(HomeTest.java:56)
 </failure>
     <system-out>FireFox
 Before navigating to: &apos;https://ehospital.nic.in/ehospitalsso/&apos;
@@ -386,86 +304,118 @@ Trying to find Element By : By.name: ddl_mod
 Found Element By : By.name: ddl_mod
 Trying to find Element By : By.xpath: .//option[@value = &quot;default_url&quot;]
 Found Element By : By.xpath: .//option[@value = &quot;default_url&quot;]
-Trying to click on: [[[[FirefoxDriver: firefox on WINDOWS (2f0382b5-bf75-4005-ad41-33a747fc56e5)] -&gt; name: ddl_mod]] -&gt; xpath: .//option[@value = &quot;default_url&quot;]]
-Clicked on: [[[[FirefoxDriver: firefox on WINDOWS (2f0382b5-bf75-4005-ad41-33a747fc56e5)] -&gt; name: ddl_mod]] -&gt; xpath: .//option[@value = &quot;default_url&quot;]]
 Invalid Module detail Entered
 Trying to find Element By : By.xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button
 Found Element By : By.xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button
-Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2f0382b5-bf75-4005-ad41-33a747fc56e5)] -&gt; xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button]
-Clicked on: [[FirefoxDriver: firefox on WINDOWS (2f0382b5-bf75-4005-ad41-33a747fc56e5)] -&gt; xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (cb9387d7-5108-4151-9fd2-579f9f0d166f)] -&gt; xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (cb9387d7-5108-4151-9fd2-579f9f0d166f)] -&gt; xpath: //*[@id=&quot;loginform&quot;]/div[3]/div/button]
 Trying to find Element By : By.id: txt_pwd
 Found Element By : By.id: txt_pwd
 Trying to find Element By : By.xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button
 Found Element By : By.xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button
-Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2f0382b5-bf75-4005-ad41-33a747fc56e5)] -&gt; xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button]
-Clicked on: [[FirefoxDriver: firefox on WINDOWS (2f0382b5-bf75-4005-ad41-33a747fc56e5)] -&gt; xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (cb9387d7-5108-4151-9fd2-579f9f0d166f)] -&gt; xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (cb9387d7-5108-4151-9fd2-579f9f0d166f)] -&gt; xpath: //*[@id=&quot;loginprep&quot;]/div[2]/div/button]
 Trying to find Element By : By.xpath: //*[@id=&quot;ehosfrm&quot;]
 Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;ehosfrm&quot;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DELL&apos;, ip: &apos;192.168.29.210&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9080, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f0382b5-bf75-4005-ad41-33a747fc56e5
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8224, moz:profile: C:\Users\Yatan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb9387d7-5108-4151-9fd2-579f9f0d166f
 *** Element info: {Using=xpath, value=//*[@id=&quot;ehosfrm&quot;]}
 </system-out>
-    <system-err>1587446561449	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Windows\\TEMP\\rust_mozprofile.rVwpAu3unP6u&quot;
-1587446563018	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension &apos;doh-rollout@mozilla.org&apos;: Reading manifest: Invalid extension permission: networkStatus
-1587446565683	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: mozillaAddons
-1587446565684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: telemetry
-1587446565684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: resource://pdf.js/
-1587446565685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: about:reader*
+    <system-err>1587549415150	Marionette	INFO	Stopped listening on port 64170
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1587549423765	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\Yatan\\AppData\\Local\\Temp\\rust_mozprofile.cfDFLceiwViU&quot;
+1587549425128	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension &apos;doh-rollout@mozilla.org&apos;: Reading manifest: Invalid extension permission: networkStatus
+1587549427859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: mozillaAddons
+1587549427859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: telemetry
+1587549427860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: resource://pdf.js/
+1587549427860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: about:reader*
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can&apos;t find profile directory.
-1587446571483	Marionette	INFO	Listening on port 55946
-1587446571897	Marionette	WARN	TLS certificate errors will be ignored for this session
-Apr 21, 2020 10:52:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1587549433430	Marionette	INFO	Listening on port 64225
+1587549433728	Marionette	WARN	TLS certificate errors will be ignored for this session
+Apr 22, 2020 3:27:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
 </system-err>
   </testcase>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="27.454">
+  <testcase classname="com.qa.testcases.LoginTest" name="UsernameTest" time="4.282"/>
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="11.649">
     <skipped/>
-    <system-err>1587446598852	Marionette	INFO	Stopped listening on port 55946
+    <system-err>1587549511451	Marionette	INFO	Stopped listening on port 64285
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Verify_Search_Button_Ispresent_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.testcases.PasswordTest" name="Enter_Password_Test" time="2.247"/>
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="11.28">
+    <skipped/>
+    <system-err>1587549548856	Marionette	INFO	Stopped listening on port 64348
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 </system-err>
   </testcase>
   <testcase classname="com.qa.testcases.NewRegistrationTest" name="Verify_Search_Button_Functioning_Test" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0.001">
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.qa.testcases.PasswordTest" name="ClickingForgot_Password_Test" time="0.546"/>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="6.473">
+  <testcase classname="com.qa.testcases.PasswordTest" name="ClickingForgot_Password_Test" time="1.041"/>
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="10.358">
     <skipped/>
-    <system-err>1587446622795	Marionette	INFO	Stopped listening on port 56024
+    <system-err>1587549590393	Marionette	INFO	Stopped listening on port 64400
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 </system-err>
   </testcase>
   <testcase classname="com.qa.testcases.NewRegistrationTest" name="Verify_Skip_Button_Availability_Test" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0.001">
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0.004">
     <skipped/>
   </testcase>
-  <testcase classname="com.qa.testcases.PasswordTest" name="Use_Another_user_Test" time="0.74"/>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="6.92">
+  <testcase classname="com.qa.testcases.PasswordTest" name="Use_Another_user_Test" time="1.336"/>
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="9.869">
     <skipped/>
-    <system-err>1587446647994	Marionette	INFO	Stopped listening on port 56081
+    <system-err>1587549639138	Marionette	INFO	Stopped listening on port 64459
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
 </system-err>
   </testcase>
   <testcase classname="com.qa.testcases.NewRegistrationTest" name="Verify_Skip_Button_Functioning_Test" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0.001">
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="0.002">
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Setup" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Registration_Form_Redirection_Test" time="0.001">
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Registration_Form_Redirection_Test" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0.002">
+  <testcase classname="com.qa.testcases.NewRegistrationTest" name="Teardown" time="0">
     <skipped/>
   </testcase>
 </testsuite>
