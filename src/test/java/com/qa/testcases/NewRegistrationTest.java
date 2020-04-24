@@ -37,7 +37,7 @@ public class NewRegistrationTest extends TestBase {
 	}
 	*/
 	@BeforeMethod ()
-	public void Setup() throws IOException {
+	public void Setup() throws IOException, InterruptedException {
 		TestBase tb = new  TestBase();
 		tb.initialization();
 		loginpage = new Login();
@@ -68,7 +68,6 @@ public class NewRegistrationTest extends TestBase {
 		 boolean linkpresent = newregistration.newregistration();
 		 Assert.assertTrue(linkpresent);
 			testutil.SwitchToParentFrame();
-			//testutil.MainFrame();
 			testutil.BannerFrame();
 			homepage.Logout_Application();
 			testutil.SwitchToAlert_Accept();

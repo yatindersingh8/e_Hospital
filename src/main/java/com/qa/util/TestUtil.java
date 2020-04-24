@@ -16,12 +16,14 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.qa.base.TestBase;
 
 public class TestUtil extends TestBase {
 	
-	public static long PageLoadTimeout = 20;
+	public static long PageLoadTimeout = 40;
 	public static long ImplicitWaitTime = 40;
 	public static String TESTDATA_SHEET_PATH = "E:\\ehospital\\Hospital\\src\\main\\java\\com\\qa\\testdata\\eHospital_TestData.xlsx";
 	static Workbook book;
@@ -32,28 +34,30 @@ public class TestUtil extends TestBase {
 		super();	
 	}
 	
-	public void MainFrame(){
-		driver.switchTo().frame(driver.findElement(By.xpath("//*[@id=\"ehosfrm\"]")));
+	public void MainFrame() throws InterruptedException{
+	
+		//driver.switchTo().frame(driver.findElement(By.xpath("//*[@id=\"ehosfrm\"]"))); ////html body iframe#ehosfrm
+        Thread.sleep(4000);
+		driver.switchTo().frame(driver.findElement(By.name("ehosfrm")));
+		//driver.switchTo().frame("ehosfrm");
 		
 	}
 	public void SwitchMenuFrame(){
-		
 		driver.switchTo().frame("contents");
 	}
-    public void SwitchMainFrame(){
-		
+    public void SwitchMainFrame() {
 		driver.switchTo().frame("main");
 	}
 	public void SwitchToAlert_Accept(){
 		//driver.switchTo().alert();
 		driver.switchTo().alert().accept();
 	}
-	public void SwitchToParentFrame(){
+	public void SwitchToParentFrame() {
 		driver.switchTo().parentFrame();
 	}
 	
 	public void BannerFrame(){
-		
+
 		driver.switchTo().frame("banner");
 	}
 	
@@ -94,7 +98,7 @@ public class TestUtil extends TestBase {
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
 	}
 	
+    
 
-	
 
 }

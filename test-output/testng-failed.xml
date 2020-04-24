@@ -27,8 +27,10 @@
       <class name="com.qa.testcases.HomeTest">
         <methods>
           <include name="Setup"/>
+          <include name="verify_home_page_URL_Test"/>
           <include name="verify_patient_registration_link_Test"/>
           <include name="Teardown"/>
+          <include name="verify_new_registration_link_Test"/>
         </methods>
       </class> <!-- com.qa.testcases.HomeTest -->
       <class name="com.qa.testcases.LoginTest">

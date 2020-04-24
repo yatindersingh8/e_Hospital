@@ -37,26 +37,39 @@ public class HomeTest extends TestBase {
 	}
 	
 	@Test(priority = 1)
-	public void verify_home_page_URL_Test(){
+	public void verify_home_page_URL_Test() throws InterruptedException{
 		 String homep = homepage.Home_Page_URl();
 		 Assert.assertEquals(homep, "https://server1.ehospital.nic.in/ehospital/home");
 		 testutil.MainFrame();
 		 testutil.BannerFrame();
 		 homepage.Logout_Application();
+		 testutil.SwitchToAlert_Accept();
 	}
      @Test(priority = 2)
-     public void verify_patient_registration_link_Test(){
+     public void verify_patient_registration_link_Test() throws InterruptedException{
     	 testutil.MainFrame();
+    	// testutil.SwitchToParentFrame();
+    	 Thread.sleep(3000);
     	 testutil.SwitchMenuFrame();
     	 homepage.Click_patient_Registration();
+ 	     testutil.SwitchToParentFrame();
+		 testutil.BannerFrame();
+		 homepage.Logout_Application();
+		 testutil.SwitchToAlert_Accept();
+		
     }
 
      @Test(priority = 3)
-     public void verify_new_registration_link_Test(){
+     public void verify_new_registration_link_Test() throws InterruptedException{
     	 testutil.MainFrame();
     	 testutil.SwitchMenuFrame();
     	 homepage.Click_patient_Registration(); 
     	 homepage.Click_new_registration();
+	     testutil.SwitchToParentFrame();
+		
+		 testutil.BannerFrame();
+		 homepage.Logout_Application();
+		 testutil.SwitchToAlert_Accept();
      }
      
      

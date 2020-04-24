@@ -48,7 +48,7 @@ public class PasswordTest extends TestBase  {
 		Assert.assertTrue(usernamedisplayed);
 	}
 	@Test(priority = 3)
-	public void Enter_Password_Test(){
+	public void Enter_Password_Test() throws InterruptedException{
 		passwordpage.Enter_Password(prop.getProperty("Password"));
 		passwordpage.Password_Signin_Button();
 		//testutil.SwitchToParentFrame();
